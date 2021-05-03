@@ -1,5 +1,18 @@
 #Data Science Hackathon form Cat_Loaded
+-----------------------------------------------------
+Advise from a friend to apply
+Drop some columns
+Handling time
+Handling categorical
+Handling distances ( longitude and latitude)
+Standard Scaler
 
+Splitting
+Dummy Classifier will give you accuracy  higher than 50 %
+
+Try Random Forest or Xgbclassifier will give you accuracy 56-57%
+
+--------------------------------------
 
 The dataset provided includes order dispatch details and rider metrics based on orders made on the Sendy platform. The challenge is to predict the reaction of a partner rider to an order: is a rider most likely to ignore, decline or accept the dispatch they receive? Sendy provides an API as well as a web and mobile application platform to link customers who have delivery needs with vetted transporters. The customers select their vehicle of choice, get their price quote upfront and pay using various payment options. The system optimises the route, looks for the closest available riders and dispatches the orders in the most efficient way. The training dataset provided here is a subset of over 200,000 dispatches and only includes direct orders (i.e. Sendy “express” orders) with bikes in Nairobi. All data in this subset have been fully anonymized while preserving the distribution. The objective of this challenge is to create a machine learning model that will predict whether a rider will accept, decline, or ignore an order sent to them.
 Files available for download:
